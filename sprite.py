@@ -35,9 +35,9 @@ while not done:
 
     if x == 0: current_colour = colours['blue']
     elif x == screen_width - sprite_width: current_colour = colours['aqua']
-    elif y == 0: current_color = colours['red']
+    elif y == 0: current_colour = colours['red']
     elif y == screen_height - sprite_height:
-        current_color = colours['green']
+        current_colour = colours['green']
     else:
         current_colour = colours['white']
     
